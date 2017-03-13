@@ -1,0 +1,207 @@
+{
+	"objName": "Sprite7",
+	"scripts": [[20, 20, [["whenGreenFlag"], ["doForever", [["wait:elapsed:from:", 0.0001], ["nextCostume"]]]]]],
+	"costumes": [{
+			"costumeName": "PeaShooter",
+			"baseLayerID": 0,
+			"baseLayerMD5": "a7b89da9556d2f1f99b08ce62341d2e4.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter1",
+			"baseLayerID": 1,
+			"baseLayerMD5": "ec368caca0550be893f415318d9775e1.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter2",
+			"baseLayerID": 2,
+			"baseLayerMD5": "dba5d36bd4e438ac2be2d3f68c452fea.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter3",
+			"baseLayerID": 3,
+			"baseLayerMD5": "55264a4577723a0bddcd0c2fa45c3586.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter4",
+			"baseLayerID": 4,
+			"baseLayerMD5": "3f07a2112cb5048a1098c820860955f3.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter5",
+			"baseLayerID": 5,
+			"baseLayerMD5": "baba856332ae2406acf8a83c4e00f8fc.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter6",
+			"baseLayerID": 6,
+			"baseLayerMD5": "33b1cbd5a2ae7c8594c76e1423e93df5.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter7",
+			"baseLayerID": 7,
+			"baseLayerMD5": "0c164bb6ecc97201cfbeca33de780277.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter8",
+			"baseLayerID": 8,
+			"baseLayerMD5": "15527f2eeb211add438e28a191d1e1d8.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter9",
+			"baseLayerID": 9,
+			"baseLayerMD5": "578878ac34a54b584436aecb52d7dc63.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter10",
+			"baseLayerID": 10,
+			"baseLayerMD5": "fce749f9393ca679922c0094ee066d65.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter11",
+			"baseLayerID": 11,
+			"baseLayerMD5": "3586760cde2ae6559d714990e3a77fae.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter12",
+			"baseLayerID": 12,
+			"baseLayerMD5": "1b7237f2c1e54c6e60358a5b089f90aa.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter13",
+			"baseLayerID": 13,
+			"baseLayerMD5": "6d34959d1b63f40f6699a9d860312f98.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter14",
+			"baseLayerID": 14,
+			"baseLayerMD5": "87072abb637c3baf9ea6c14a27bbc67d.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter15",
+			"baseLayerID": 15,
+			"baseLayerMD5": "039405bba17fcd5a6c27d46be4d7b23e.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter16",
+			"baseLayerID": 16,
+			"baseLayerMD5": "25442eabc03f21b32fee02c0ad075c45.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter17",
+			"baseLayerID": 17,
+			"baseLayerMD5": "2c895319fa276817aa68f6d3db98f7cb.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter18",
+			"baseLayerID": 18,
+			"baseLayerMD5": "e64f231d43fffee69c5a00ca6e228c03.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter19",
+			"baseLayerID": 19,
+			"baseLayerMD5": "7e21c1f702d5a547545fc2e6339422f1.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter20",
+			"baseLayerID": 20,
+			"baseLayerMD5": "eb47b8299a89099bc035427d3a24f2f6.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter21",
+			"baseLayerID": 21,
+			"baseLayerMD5": "410f14ea366ffcd75ff96c99e0661c22.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter22",
+			"baseLayerID": 22,
+			"baseLayerMD5": "8fc6a58170e1fdf77fff6bcdbd0f693e.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		},
+		{
+			"costumeName": "PeaShooter23",
+			"baseLayerID": 23,
+			"baseLayerMD5": "874f42328739624cc47e72863c589bc3.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 48,
+			"rotationCenterY": 49
+		}],
+	"currentCostumeIndex": 13,
+	"scratchX": 0,
+	"scratchY": 0,
+	"scale": 1.0000000002328306,
+	"direction": 90,
+	"rotationStyle": "normal",
+	"isDraggable": false,
+	"indexInLibrary": 100000,
+	"visible": true,
+	"spriteInfo": {
+	}
+}

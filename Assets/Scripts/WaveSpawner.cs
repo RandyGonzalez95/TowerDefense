@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WaveSpawner : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class WaveSpawner : MonoBehaviour
 
 
     private int EnemiesAlive;
-
+    public Text waveCountdownText;
 
 	// Use this for initialization
 	void Start ()
@@ -39,6 +40,9 @@ public class WaveSpawner : MonoBehaviour
 
         countdown -= Time.deltaTime;
         countdown = Mathf.Clamp(countdown, 0f, Mathf.Infinity);
+
+        if(waveCountdownText != null)
+            waveCountdownText.text = string.Format("{0:00.00}", countdown);
 	}
 
     IEnumerator SpawnWave()

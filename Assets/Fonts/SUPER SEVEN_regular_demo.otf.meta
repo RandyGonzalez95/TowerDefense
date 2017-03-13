@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 006cf057667f4044b9209316f9bcff8d
+timeCreated: 1489432204
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: SUPER SEVEN Demo
+  fontNames:
+  - SUPER SEVEN Demo
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
