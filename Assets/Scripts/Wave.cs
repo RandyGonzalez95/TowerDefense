@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Wave : MonoBehaviour
+[System.Serializable]
+public class Wave
 {
 
     public GameObject enemy, enemy1, enemy2;
@@ -14,6 +15,11 @@ public class Wave : MonoBehaviour
     void Start()
     {
         actual = RandomizeEnemy();
+
+        if(actual == null)
+        {
+            actual = enemy;
+        }
     }
 
     GameObject RandomizeEnemy()
