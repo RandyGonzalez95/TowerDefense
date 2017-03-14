@@ -1,0 +1,447 @@
+{
+	"objName": "Sprite13",
+	"scripts": [[20, 20, [["whenGreenFlag"], ["doForever", [["wait:elapsed:from:", 0.0001], ["nextCostume"]]]]]],
+	"costumes": [{
+			"costumeName": "Sunflower",
+			"baseLayerID": 0,
+			"baseLayerMD5": "50fad4a33e72932a494978d568c37574.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower1",
+			"baseLayerID": 1,
+			"baseLayerMD5": "5dae819448ca1d6efa39a6ab1c86da2a.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower2",
+			"baseLayerID": 2,
+			"baseLayerMD5": "3666d697849081c1116886c07ea2cf3e.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower3",
+			"baseLayerID": 3,
+			"baseLayerMD5": "ac68ea267bc7d200751014c263dbe3fe.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower4",
+			"baseLayerID": 4,
+			"baseLayerMD5": "93d74f41e0b938caebf3dbcd61f05ba3.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower5",
+			"baseLayerID": 5,
+			"baseLayerMD5": "b7342efd6f20163cea36fc89893fd234.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower6",
+			"baseLayerID": 6,
+			"baseLayerMD5": "29e63d5b1c4ac0fc0cc664e9afc95b5d.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower7",
+			"baseLayerID": 7,
+			"baseLayerMD5": "dcf6c8a836489b3c0f969bb034c577be.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower8",
+			"baseLayerID": 8,
+			"baseLayerMD5": "6e1ae1bec880ff9b71e187d7b2f02440.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower9",
+			"baseLayerID": 9,
+			"baseLayerMD5": "7f289ec96c109f4f3960d22eac19d6e3.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower10",
+			"baseLayerID": 10,
+			"baseLayerMD5": "03df758a18e87f3fb30bd0800e448588.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower11",
+			"baseLayerID": 11,
+			"baseLayerMD5": "043c620dbe57d1a2ec942f2d911ffa77.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower12",
+			"baseLayerID": 12,
+			"baseLayerMD5": "7c2555a86f1e0068d96554c76f866b13.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower13",
+			"baseLayerID": 13,
+			"baseLayerMD5": "26516f5d4d1de83f713b7567474c5ceb.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower14",
+			"baseLayerID": 14,
+			"baseLayerMD5": "57ffe694b1e876b633a5eeaab59ffddf.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower15",
+			"baseLayerID": 15,
+			"baseLayerMD5": "0b6d0386009a482604e5fb1187602dff.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower16",
+			"baseLayerID": 16,
+			"baseLayerMD5": "3a8c53dbd608f4eed384db029c6c8af6.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower17",
+			"baseLayerID": 17,
+			"baseLayerMD5": "6a1e175458b3887861194a84c4ebc4ea.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower18",
+			"baseLayerID": 18,
+			"baseLayerMD5": "336b5bb91ccbb7c280111ca0d7da5fa2.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower19",
+			"baseLayerID": 19,
+			"baseLayerMD5": "2e05ab56d22db0e5e2b9392053467973.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower20",
+			"baseLayerID": 20,
+			"baseLayerMD5": "3b129a3f0b38684ede2d95895ce3eb71.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower21",
+			"baseLayerID": 21,
+			"baseLayerMD5": "ddfda9dc3502b72be0f9f52b065931ae.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower22",
+			"baseLayerID": 22,
+			"baseLayerMD5": "8ccdfafaffa996abec4cfa9172e549fc.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower23",
+			"baseLayerID": 23,
+			"baseLayerMD5": "48523ad2187d2bca85b53ac7f0772a24.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower24",
+			"baseLayerID": 24,
+			"baseLayerMD5": "e1f8e195a442998564c60c65268423aa.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower25",
+			"baseLayerID": 25,
+			"baseLayerMD5": "3fcba0bf2eab3a1425ed2a5ccedf8919.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower26",
+			"baseLayerID": 26,
+			"baseLayerMD5": "e8b597f9422657cc6e38f3bc454dd936.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower27",
+			"baseLayerID": 27,
+			"baseLayerMD5": "48e00b8e467c05682dce81e135723062.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower28",
+			"baseLayerID": 28,
+			"baseLayerMD5": "a79d23b56d4650bc7fa775910d64b790.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower29",
+			"baseLayerID": 29,
+			"baseLayerMD5": "cc9a16b1f24d1d6de01b085c6661fa46.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower30",
+			"baseLayerID": 30,
+			"baseLayerMD5": "741474bde15da4086b912b8ffdd859ee.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower31",
+			"baseLayerID": 31,
+			"baseLayerMD5": "2f8b7ef9d2fdbb2036afb989aff93ffa.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower32",
+			"baseLayerID": 32,
+			"baseLayerMD5": "44ecbdc4d4a9af8edf820259a8bee8fc.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower33",
+			"baseLayerID": 33,
+			"baseLayerMD5": "a0d360faaf7eaf3dc90135ee07938afc.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower34",
+			"baseLayerID": 34,
+			"baseLayerMD5": "e8fd63338fb8b29445f1c844e3a90857.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower35",
+			"baseLayerID": 35,
+			"baseLayerMD5": "99c1712539891908f177209bfcde2310.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower36",
+			"baseLayerID": 36,
+			"baseLayerMD5": "46b995302745770a47c3e97af9fe9c7e.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower37",
+			"baseLayerID": 37,
+			"baseLayerMD5": "2b55bd5319660f7f2e6d7444299a99a2.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower38",
+			"baseLayerID": 38,
+			"baseLayerMD5": "9f7d8113de0d9893bfc75705b52f9216.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower39",
+			"baseLayerID": 39,
+			"baseLayerMD5": "331c49511589090cc62c2a20d8b54bf8.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower40",
+			"baseLayerID": 40,
+			"baseLayerMD5": "5003d522f93f3d969e8642b92d22e1b5.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower41",
+			"baseLayerID": 41,
+			"baseLayerMD5": "05a07a857d26cd0586ef480f2ca2c3bc.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower42",
+			"baseLayerID": 15,
+			"baseLayerMD5": "0b6d0386009a482604e5fb1187602dff.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower43",
+			"baseLayerID": 16,
+			"baseLayerMD5": "3a8c53dbd608f4eed384db029c6c8af6.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower44",
+			"baseLayerID": 17,
+			"baseLayerMD5": "6a1e175458b3887861194a84c4ebc4ea.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower45",
+			"baseLayerID": 18,
+			"baseLayerMD5": "336b5bb91ccbb7c280111ca0d7da5fa2.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower46",
+			"baseLayerID": 19,
+			"baseLayerMD5": "2e05ab56d22db0e5e2b9392053467973.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower47",
+			"baseLayerID": 20,
+			"baseLayerMD5": "3b129a3f0b38684ede2d95895ce3eb71.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower48",
+			"baseLayerID": 21,
+			"baseLayerMD5": "ddfda9dc3502b72be0f9f52b065931ae.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower49",
+			"baseLayerID": 22,
+			"baseLayerMD5": "8ccdfafaffa996abec4cfa9172e549fc.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower50",
+			"baseLayerID": 23,
+			"baseLayerMD5": "48523ad2187d2bca85b53ac7f0772a24.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower51",
+			"baseLayerID": 24,
+			"baseLayerMD5": "e1f8e195a442998564c60c65268423aa.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower52",
+			"baseLayerID": 25,
+			"baseLayerMD5": "3fcba0bf2eab3a1425ed2a5ccedf8919.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		},
+		{
+			"costumeName": "Sunflower53",
+			"baseLayerID": 26,
+			"baseLayerMD5": "e8b597f9422657cc6e38f3bc454dd936.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 37,
+			"rotationCenterY": 36
+		}],
+	"currentCostumeIndex": 1,
+	"scratchX": 0,
+	"scratchY": 0,
+	"scale": 1.0000000002328306,
+	"direction": 90,
+	"rotationStyle": "normal",
+	"isDraggable": false,
+	"indexInLibrary": 100000,
+	"visible": true,
+	"spriteInfo": {
+	}
+}
