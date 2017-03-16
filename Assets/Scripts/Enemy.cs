@@ -10,11 +10,14 @@ public class Enemy : MonoBehaviour
     private Transform target;
     private int wavepointIndex = 0;
 
+    PlayerManager player;
+
 	// Use this for initialization
 	void Start ()
     {
 
         target = Waypoints.points[0];
+        player = PlayerManager.instance;
 	}
 	
 	// Update is called once per frame
@@ -33,8 +36,11 @@ public class Enemy : MonoBehaviour
 
     void GetNextWaypoint()
     {
+        // Zombie has reach the last waypoint
         if(wavepointIndex >= Waypoints.points.Length - 1)
         {
+            player.LoseLife();
+            
             Destroy(gameObject);
             return;
         }
