@@ -5,6 +5,12 @@ using UnityEngine;
 public class SunUI : MonoBehaviour
 {
     PlayerManager player;
+
+    void Start()
+    {
+        Destroy(gameObject, 5f);
+    }
+
     void OnMouseEnter()
     {
         GetComponent<SpriteRenderer>().color = Color.gray;
