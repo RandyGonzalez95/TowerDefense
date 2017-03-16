@@ -2,7 +2,7 @@
 
 public class Shop : MonoBehaviour
 {
-    public GameObject flower, peaShooter, multiShooter;
+
     
     BuildManager buildManager;
 
@@ -13,17 +13,37 @@ public class Shop : MonoBehaviour
 
     public void PurchaseFlower()
     {
-        buildManager.SetObjectToBuild(flower);
+        Debug.Log("Flower selected");
+        buildManager.SetObjectToBuild(buildManager.flower);
+
+        if (buildManager.flower == null)
+        {
+            Debug.Log("build manager is null at flower shop");
+        }
     }
 
     public void PurchasePeaShooter()
     {
-        buildManager.SetObjectToBuild(peaShooter);
+        Debug.Log("pea selected");
+
+        buildManager.SetObjectToBuild(buildManager.peaShooter);
+
+        if (buildManager.peaShooter == null)
+        {
+            Debug.Log("build manager is null at pea shop");
+        }
     }
 
     public void PurchaseMultiShooter()
     {
-        buildManager.SetObjectToBuild(multiShooter);
+        Debug.Log("pea2 selected");
+
+        buildManager.SetObjectToBuild(buildManager.multiShooter);
+
+        if (buildManager.multiShooter == null)
+        {
+
+        }
     }
 
 }

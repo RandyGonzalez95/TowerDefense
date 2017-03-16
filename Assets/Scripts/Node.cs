@@ -22,7 +22,7 @@ public class Node : MonoBehaviour
     void OnMouseDown()
     {
         if(buildManager.GetObjectToBuild() == null)
-        {
+        { 
             return;
         }
 
@@ -32,14 +32,18 @@ public class Node : MonoBehaviour
             return;
         }
 
+
         GameObject objectToBuild = buildManager.GetObjectToBuild();
-        tower = (GameObject)Instantiate(objectToBuild, transform.position, transform.rotation);
+        tower = (GameObject)Instantiate(objectToBuild, transform.position, transform.rotation); 
+
     }
 
     void OnMouseEnter()
     {
-        if (buildManager.GetObjectToBuild() == null)
+        if(buildManager.GetObjectToBuild() == null)
+        {
             return;
+        }
 
         rend.color = Color.grey;
     }
