@@ -1,49 +1,68 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class Shop : MonoBehaviour
 {
 
     
     BuildManager buildManager;
+    PlayerManager player;
+    public GameObject panel;
 
     void Start()
     {
         buildManager = BuildManager.instance;
+        player = PlayerManager.instance;
     }
 
     public void PurchaseFlower()
     {
-        Debug.Log("Flower selected");
-        buildManager.SetObjectToBuild(buildManager.flower);
-
-        if (buildManager.flower == null)
+        if (player.currentSunAmount >= 50)
         {
-            Debug.Log("build manager is null at flower shop");
+            buildManager.SetObjectToBuild(buildManager.flower);
+            player.Purchase(50);
+            panel.SetActive(false);
         }
+        else
+        {
+            panel.SetActive(true);
+
+        }     
+
     }
 
     public void PurchasePeaShooter()
     {
-        Debug.Log("pea selected");
-
-        buildManager.SetObjectToBuild(buildManager.peaShooter);
-
-        if (buildManager.peaShooter == null)
+        if (player.currentSunAmount >= 200)
         {
-            Debug.Log("build manager is null at pea shop");
+            buildManager.SetObjectToBuild(buildManager.peaShooter);
+            player.Purchase(200);
+            panel.SetActive(false);
         }
+        else
+        {
+            panel.SetActive(true);
+ 
+        }
+          
     }
 
     public void PurchaseMultiShooter()
-    {
-        Debug.Log("pea2 selected");
-
-        buildManager.SetObjectToBuild(buildManager.multiShooter);
-
-        if (buildManager.multiShooter == null)
+    {       
+        if(player.currentSunAmount >= 1000)
         {
-
+            buildManager.SetObjectToBuild(buildManager.multiShooter);
+            player.Purchase(1000);
+            panel.SetActive(false);
         }
+        else
+        {
+            panel.SetActive(true);
+      
+        }
+             
     }
+
+
 
 }
