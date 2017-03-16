@@ -8,6 +8,9 @@ public class bulletMgr : MonoBehaviour
     private Transform target;
     public GameObject effect;
     public float speed = 5f;
+    public float damage = 10.0f;
+
+   
 
     public void Seek( Transform zombie )
     {
@@ -46,8 +49,25 @@ public class bulletMgr : MonoBehaviour
 
         // Show Particle System
         GameObject effectInstance = (GameObject)Instantiate(effect, target.position, target.rotation);
-        Destroy(effectInstance, 1.0f);        
+        Destroy(effectInstance, 1.0f);
+
+
+        // Damage the zombie
+        Damage(target);
     }
 
+    void Damage(Transform enemy)
+    {
+        EnemyManager zombie = enemy.GetComponent<EnemyManager>();
 
+        if(zombie != null)
+        {
+            zombie.TakeDamage(damage);
+        }
+
+        if(zombie.currentHealth <=0)
+        {
+            Destroy(enemy.gameObject);
+        }
+    }
 }

@@ -10,16 +10,10 @@ public class Enemy : MonoBehaviour
     private Transform target;
     private int wavepointIndex = 0;
 
-    // Health Bar
-    [Header("Health Bar")]
-    public Image HealthBar;
-    public int health;
-    private float fillAmount;
-
-
 	// Use this for initialization
 	void Start ()
     {
+
         target = Waypoints.points[0];
 	}
 	

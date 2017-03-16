@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class WaveSpawner : MonoBehaviour
 {
-
+    [Header("Wave")]
     public Transform spawnPoint;
 
     public Wave[] waves;
@@ -15,8 +15,9 @@ public class WaveSpawner : MonoBehaviour
     private float countdown = 2f;
 
 
-    private int EnemiesAlive;
+    public int EnemiesAlive;
     public Text waveCountdownText;
+
 
 	// Use this for initialization
 	void Start ()
