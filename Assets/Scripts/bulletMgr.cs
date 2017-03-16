@@ -10,12 +10,14 @@ public class bulletMgr : MonoBehaviour
     public float speed = 5f;
     public float damage = 10.0f;
 
-   
+    EnemyManager enemyMgr;
 
     public void Seek( Transform zombie )
     {
         // Pass in target zombie from our tower
         target = zombie;
+
+        enemyMgr = EnemyManager.instance;
     }
 	
 	// Update is called once per frame
@@ -67,7 +69,9 @@ public class bulletMgr : MonoBehaviour
 
         if(zombie.currentHealth <=0)
         {
+
             Destroy(enemy.gameObject);
+            enemyMgr.Kill();
         }
     }
 }

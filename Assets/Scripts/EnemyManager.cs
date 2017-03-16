@@ -5,17 +5,28 @@ using UnityEngine.UI;
 
 public class EnemyManager : MonoBehaviour
 {
+
+    public static EnemyManager instance;
+
     [Header("Health")]
     public Image healthBar;
     public float startHealth;
 
     private bool isDead = false;
     public float currentHealth;
+
+    WaveSpawner waveManager;
     
     // Use this for initialization
     void Start()
     {
         currentHealth = startHealth;
+        waveManager = WaveSpawner.instance;
+
+        if (instance != null)
+            return;
+
+        instance = this;
      
     }
 
@@ -33,8 +44,11 @@ public class EnemyManager : MonoBehaviour
         {
             healthBar.color = Color.red;
         }
+    }
 
-
+    public void Kill()
+    {
+        waveManager.currentWave.EnemiesAlive--;
     }
 
 }

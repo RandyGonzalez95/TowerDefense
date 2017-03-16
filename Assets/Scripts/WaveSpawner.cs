@@ -5,28 +5,43 @@ using UnityEngine.UI;
 
 public class WaveSpawner : MonoBehaviour
 {
+    public static WaveSpawner instance; 
+
     [Header("Wave")]
     public Transform spawnPoint;
 
     public Wave[] waves;
+    public Wave currentWave;
     private int waveIndex = 0;
 
     public float timeBetweenWaves = 60f;
     private float countdown = 2f;
 
 
-    public int EnemiesAlive;
+    //public int EnemiesAlive;
 
 
 	// Use this for initialization
 	void Start ()
     {
-		
+        currentWave = waves[0];
+        waveIndex = 0;
+
+        if ( instance != null)
+        {
+            return;
+        }
+
+        instance = this;
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
+    
+
+ 
+
         if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
@@ -38,6 +53,7 @@ public class WaveSpawner : MonoBehaviour
             // End Game
         }
 
+
         countdown -= Time.deltaTime;
         countdown = Mathf.Clamp(countdown, 0f, Mathf.Infinity);
 
@@ -46,7 +62,7 @@ public class WaveSpawner : MonoBehaviour
     IEnumerator SpawnWave()
     {
         Wave wave = waves[waveIndex];
-        EnemiesAlive = wave.count;
+       
 
         for(int i = 0; i< wave.count; i++)
         {
@@ -60,6 +76,7 @@ public class WaveSpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
+        Debug.Log("zombie spawned");
         Instantiate(waves[waveIndex].actual, spawnPoint.position, spawnPoint.rotation);
     }
 }
