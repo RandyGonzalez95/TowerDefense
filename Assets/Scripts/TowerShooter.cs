@@ -7,8 +7,13 @@ public class TowerShooter : MonoBehaviour
     // Zombie vars
     private string zombieTag = "zombie";
 
-    // Bullet 
-    public GameObject bulletPrefab;
+    [Header("Attributes")]
+    // Shooting Mechanics
+    public float fireRate;
+    private float fireCountdown = 0f;
+
+    [Header("Unity Setup Fields")]
+
     private float shortestDistance;
 
     // Target Aim
@@ -17,9 +22,14 @@ public class TowerShooter : MonoBehaviour
 
     public Transform turnToRotate;
 
+    // Bullet 
+    [Header("Bullet Information")]
+    public GameObject bulletPrefab;
+    public Transform firePoint;
 
-	// Use this for initialization
-	void Start ()
+
+    // Use this for initialization
+    void Start ()
     {
         // Call function 2 times per second
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
@@ -59,12 +69,32 @@ public class TowerShooter : MonoBehaviour
         if (target == null)
             return;
 
+        // find the direction between our tower and target
         Vector3 dir = target.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         Vector3 rotation = lookRotation.eulerAngles;
 
         turnToRotate.rotation = Quaternion.Euler(0f, 0f, -rotation.x);
+
+        if(fireCountdown < 0f)
+        {
+            Shoot();
+            fireCountdown = 1f / fireRate;
+        }
+
+        fireCountdown -= Time.deltaTime;
 	}
+
+    void Shoot()
+    {
+        GameObject bullet = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        bulletMgr actualBullet = bullet.GetComponent<bulletMgr>();
+
+        if(actualBullet != null)
+        {
+            actualBullet.Seek(target);
+        }
+    }
 
     void OnDrawGizmosSelected()
     {
